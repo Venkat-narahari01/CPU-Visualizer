@@ -1,0 +1,73 @@
+
+.algorithm-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: auto !important;
+}
+
+.stats-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-back-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.play-back-buttons button {
+  margin: 0 0.5rem;
+}
+
+.memory-section {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.memory-table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  font-size: 8px;
+}
+
+.memory-table tr {
+  background-color: #f0f0f0;
+}
+
+.memory-table tr td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 2px;
+  height: 10px;
+}
+
+.memory-cell {
+  width: 150px;
+}
+
+.hovered {
+  background-color: rgb(58, 133, 255) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.hero-text h1 {
+    font-size: 3.2rem;
+}

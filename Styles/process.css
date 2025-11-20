@@ -1,0 +1,78 @@
+@media screen and (max-width: 799px) and (min-width: 560px){
+  .show-time-section{
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (min-width:401px) and (max-width: 560px){
+  .show-time-section{
+    padding: 0 !important;
+    font-size: 0.7rem !important;
+  }
+  .next-block {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 400px){
+  .show-time-section{
+    font-size: 0.6rem !important;
+    padding: 5px !important;
+    margin: 0 !important;
+  }
+  .next-block {
+    font-size: 8px !important;
+    width: 7vw !important;
+  }
+}
+
+.show-time-section {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.show-time-section p{
+    text-align: center;
+}
+
+
+.animation-table table {
+  border-collapse: collapse;
+  border-spacing: 0 20px;
+  border-collapse: separate;
+  margin: 20px 0;
+  table-layout: fixed;
+}
+
+.animation-table td {
+  height: 25px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  text-align: center;
+  padding: 5px;
+}
+
+.next-block {
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-style: solid;
+}
+
+.dynamic_table_body tr td:first-child {
+  border-radius: 12px 0 0 12px;
+}
+
+.dynamic_table_body tr td:last-child {
+  border-radius: 0 12px 12px 0;
+}
+.dynamic_table_body tr {
+  width: 100%;
+
+}
+#dynamic_table{
+  width: 100%;
+}
